@@ -4,8 +4,7 @@ from service.views import FileMetadataViewSet
 
 router = DefaultRouter()
 router.register(
-    prefix=r"metadata",
-    viewset=FileMetadataViewSet,
+    prefix=r"metadata", viewset=FileMetadataViewSet,
 )
 
 urlpatterns = router.urls
